@@ -1,0 +1,164 @@
+.navTitle {
+    list-style: none;
+    float: left;
+}
+.navTitle li {
+    display: inline;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    line-height: 52px;
+    padding: 10px 15px;
+    margin-left: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navTitle li:hover {
+    color: #F37327;
+    opacity: 1;
+}
+.navTitle li.active{
+    color: #F37327;
+    opacity: 1;
+}
+
+.search-box {
+    width: 490px;
+    height: 60px;
+    position: relative;
+    border: 0px;
+    background: none;
+    margin: 0 auto;
+}
+.search-box .search-topic {
+    position: absolute;
+    color: rgba(31,56,88,0.30);
+    z-index: 90;
+    font-size: 14px;
+    top: 50%;
+    left: 15px;
+    margin-top: -10px;
+    line-height: 20px;
+    display: block;
+    width: 300px;
+    text-align: left;
+    margin-left: 8px;
+}
+.search-box .filter {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    opacity: 0.1;
+}
+.search-box .search-text {
+    padding: 10px 0 6px;
+    text-indent: 10px;
+    float: left;
+    border: 0;
+    font-size: 14px;
+    position: relative;
+    top: 4px;
+    outline: none;
+    width: 368px;
+    height: 40px;
+    padding-top: 6px;
+    margin-top: 6px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.search-box .search-text.active {
+    display: none;
+}
+.search-box .search-btn {
+    color: #fff;
+    background: #F37327;
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    width: 92px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.new-position {
+    width: 850px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+    border-radius: 3px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.new-position .more {
+    height: 49px;
+    border-bottom: 1px solid rgba(31, 56, 88, 0.06);
+    line-height: 49px;
+    padding: 0 14px;
+    background: white;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    z-index: 2;
+}
+.new-position .more .new-font {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.new-position .more .more-font {
+    float: right;
+    font-size: 14px;
+    color: rgba(31,56,88,0.60);
+    cursor: pointer;
+    text-decoration: none;
+}
+.new-position .position-list {
+    height: 300px;
+    position: relative;
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+}
+.new-position .position-list li {
+    overflow: hidden;
+    padding: 0 14px;
+    line-height: 50px;
+}
+.new-position .position-list .positions {
+    float: left;
+    color: #3C99D8;
+    text-align: left;
+    cursor: pointer;
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    text-decoration: none;
+}
+.new-position .position-list .city {
+    font-style: normal;
+    float: left;
+    width: 202px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.new-position .position-list .time {
+    font-style: normal;
+    float: right;
+    width: 70px;
+    color: rgba(31,56,88,0.60);
+    text-align: right;
+    font-size: 14px;
+}
